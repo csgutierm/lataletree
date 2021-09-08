@@ -1,0 +1,67 @@
+Analisis with 8 nodes
+
+node -> conexiones
+
+
+
+click en 1
+
+1 free
+-------------
+click en 2
+
+check 1 open
+if (1==open y points>0)
+2=open
+-------------
+click en 3
+
+check 2 open
+if (2==open y points>0)
+3=open
+-------------
+click en 4
+
+check 2 open
+if (2==open y points>0)
+4=open
+-------------
+click en 5
+
+check 3 open or 7 open
+if (3==open y points>0)
+5=open
+
+or
+
+if (7==open y points>0)
+5=open
+-------------
+click en 6
+
+check 4 open or 7 open
+if (4==open y points>0)
+6=open
+
+or
+
+if (7==open y points>0)
+6=open
+-------------
+click en 7
+
+check 5 open or 6 open
+if (5==open y points>0)
+7=open
+
+or
+
+if (6==open y points>0)
+7=open
+-------------
+
+
+
+
+en resumen chequear los vecinos aunque se pueden eliminar algunos chequeos
+podría no valer la pena estar 100% optimizado se vera en el futuro...
