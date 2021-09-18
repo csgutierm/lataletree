@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        
+    </style>
+
+
+</head>
+<body>
+
+
+<svg version="1.1"
+     width="1000" height="500"
+     xmlns="http://www.w3.org/2000/svg">
+
+<image href="tree + grid.png"  />
+
+  <circle id="circle1" r="30" cx="34" cy="34" 
+onclick="circle1.style.fill='yellow';"
+style="fill: red; stroke: blue; stroke-width: 2"/>
+
+  <circle id="circle2" r="30" cx="94" cy="94" 
+onclick="circle2.style.fill='yellow';"
+style="fill: red; stroke: blue; stroke-width: 2"/>
+
+<rect id="rect3" x="200" y="200" width="200" height="100" stroke="black" 
+
+fill="black" stroke-width="5"/>
+<foreignobject id="foreign3" x="200" y="200" width="200" height="100">
+<body xmlns="http://www.w3.org/1999/xhtml">
+                <div>Long text that runs more than one line and works as a 
+
+paragraph</div>
+                <br />
+                <div>This is <u>UNDER LINE</u> one</div>
+                <br />
+                <div>This is <b>BOLD</b> one</div>
+                <br />
+                <div>This is <i>Italic</i> one</div>
+            </body>
+        </foreignobject>
+
+  <circle id="circle3" r="30" cx="164" cy="164" 
+onmouseover="rect3.style.fill='red';"
+onmouseout="rect3.style.fill='black';"
+onclick="if(circle3.style.fill === 'yellow') {
+          circle3.style.fill='red';
+        } else {
+          circle3.style.fill='yellow';
+        }"
+style="fill: red; stroke: blue; stroke-width: 2"/>
+
+
+
+
+  </svg>
+
+
+
+ 
+    <script>
+
+    </script>
+
+</body>
+</html>
+
+
+
+<!--https://www.w3.org/TR/SVG11/script.html
+
+onfocusin = "<anything>"
+onfocusout = "<anything>"
+onactivate = "<anything>"
+onclick = "<anything>"
+onmousedown = "<anything>"
+onmouseup = "<anything>"
+onmouseover = "<anything>"
+onmousemove = "<anything>"
+onmouseout = "<anything>"
+--> 
